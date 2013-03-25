@@ -18,45 +18,45 @@
 $config['default'] = array(
 	5 => array(
 		'name' => 'DOM_ready',
-		'filename' => 'libs/Core-js/core/ready.js',
+		'filename' => '/libs/sifojs/core/ready.js',
 	),
 	10 => array(
 		'name' => 'labs',
-		'filename' => 'libs/Core-js/libs/labjs/LAB.js',
+		'filename' => '/libs/sifojs/libs/labjs/LAB.js',
 	),
 	15 => array(
 		'name' => 'device_detection',
-		'filename' => 'libs/Core-js/core/device_detection.js',
+		'filename' => '/libs/sifojs/core/device_detection.js',
 	),
 	20 => array(
 		'name' => 'namespace',
-		'filename' => 'libs/Core-js/core/namespace.js',
+		'filename' => '/libs/sifojs/core/namespace.js',
 	),
 	30 => array(
 		'name' => 'utilities_common',
-		'filename' => 'libs/Core-js/core/utilities.js',
+		'filename' => '/libs/sifojs/core/utilities.js',
 	),
 	100000 => array(
 		'name' => 'init',
-		'filename' => 'libs/Core-js/core/init.js',
+		'filename' => '/libs/sifojs/core/init.js',
 	)
 );
 
 $config['desktop'] = array(
 	10 => array(
 		'name' => 'jquery',
-		'filename' => 'libs/Core-js/libs/jquery/jquery-1.8.3.min.js',
+		'filename' => '/libs/sifojs/libs/jquery/jquery-1.8.3.min.js',
 	),
 	20 => array(
      'name' => 'modernizr',
-     'filename' => 'libs/Core-js/libs/modernizr/modernizr-custom.js',
+     'filename' => '/libs/sifojs/libs/modernizr/modernizr-custom.js',
     )
 );
 
 $config['mobile'] = array(
     10 => array(
         'name' => 'jquery',
-        'filename' => 'libs/Core-js/libs/zepto/zepto.js'
+        'filename' => '/libs/sifojs/libs/zepto/zepto.js'
     )
 );
 
@@ -64,15 +64,15 @@ $config['mobile'] = array(
 $config['polyfills'] = array(
 	10 => array(
 		'name' => 'polyfiller',
-		'filename' => 'libs/Core-js/libs/modernizr/polyfills/polyfiller.js'
+		'filename' => '/libs/sifojs/libs/modernizr/polyfills/polyfiller.js'
 	),
 	20 => array(
 		'name' => 'cssfx',
-		'filename' => 'libs/Core-js/libs/modernizr/polyfills/cssfx.js'
+		'filename' => '/libs/sifojs/libs/modernizr/polyfills/cssfx.js'
 	),
 	30 => array(
 		'name' => 'selectivizr',
-		'filename' => 'libs/Core-js/libs/modernizr/polyfills/selectivizr-min.js'
+		'filename' => '/libs/sifojs/libs/modernizr/polyfills/selectivizr-min.js'
 	)
 );
 
@@ -80,19 +80,19 @@ $config['polyfills'] = array(
 $config['graphs'] = array(
 	10 => array(
 		'name' => 'excanvas',
-		'filename' => 'libs/Core-js/libs/flot/excanvas.min.js',
+		'filename' => '/libs/sifojs/libs/flot/excanvas.min.js',
 	),
 	20 => array(
 		'name' => 'float',
-		'filename' => 'libs/Core-js/libs/flot/jquery.flot.js',
+		'filename' => '/libs/sifojs/libs/flot/jquery.flot.js',
 	),
 	30 => array(
 		'name' => 'jquery_graph_table',
-		'filename' => 'libs/Core-js/libs/flot/jquery.graphTable.js',
+		'filename' => '/libs/sifojs/libs/flot/jquery.graphTable.js',
 	),
 	40 => array(
 		'name' => 'graphs_class',
-		'filename' => 'libs/Core-js/classes/graphs.js',
+		'filename' => '/libs/sifojs/classes/graphs.js',
 	)
 );
 
@@ -101,11 +101,11 @@ $config['graphs'] = array(
 $config['modal'] = array(
 	10 => array(
 		'name' => 'colorbox',
-		'filename' => 'libs/Core-js/libs/jquery-colorbox/jquery.colorbox.js',
+		'filename' => '/libs/sifojs/libs/jquery-colorbox/jquery.colorbox.js',
 	),
 	20 => array(
 		'name' => 'modals_class',
-		'filename' => 'libs/Core-js/classes/modals.min.js',
+		'filename' => '/libs/sifojs/classes/modals.min.js',
 	)
 );
 
@@ -113,11 +113,11 @@ $config['modal'] = array(
 $config['tags'] = array(
 	10 => array(
 		'name' => 'jquery_tag_editor',
-		'filename' => 'libs/Core-js/libs/jquery-tageditor/jquery.tag.editor.js',
+		'filename' => '/libs/sifojs/libs/jquery-tageditor/jquery.tag.editor.js',
 	),
 	20 => array(
 		'name' => 'tags_class',
-		'filename' => 'libs/Core-js/classes/tags.js',
+		'filename' => '/libs/sifojs/classes/tags.js',
 	)
 );
 
@@ -125,11 +125,11 @@ $config['tags'] = array(
 $config['autocomplete'] = array(
 	10 => array(
 		'name' => 'jquery_autocomplete',
-		'filename' => 'libs/Core-js/libs/jquery-autocomplete/jquery.autocomplete.js',
+		'filename' => '/libs/sifojs/libs/jquery-autocomplete/jquery.autocomplete.js',
 	),
 	20 => array(
 		'name' => 'autocomplete_class',
-		'filename' => 'libs/Core-js/classes/autocomplete.js',
+		'filename' => '/libs/sifojs/classes/autocomplete.js',
 	)
 );
 
@@ -138,11 +138,11 @@ $config['autocomplete'] = array(
 $config['tabs'] = array(
 	10 => array(
 		'name' => 'tabber',
-		'filename' => 'libs/Core-js/libs/tabifier/tabber.js',
+		'filename' => '/libs/sifojs/libs/tabifier/tabber.js',
 	),
 	20 => array(
 		'name' => 'tabs_class',
-		'filename' => 'libs/Core-js/classes/tabs.js',
+		'filename' => '/libs/sifojs/classes/tabs.js',
 	)
 );
 
@@ -150,11 +150,11 @@ $config['tabs'] = array(
 $config['user_interface'] = array(
 	10 => array(
 		'name' => 'jquery_ui',
-		'filename' => 'libs/Core-js/libs/jquery-ui/js/jquery-ui-1.8.10.custom.min.js',
+		'filename' => '/libs/sifojs/libs/jquery-ui/js/jquery-ui-1.8.10.custom.min.js',
 	),
 	20 => array(
 		'name' => 'sortable_class',
-		'filename' => 'libs/Core-js/classes/sortable.js',
+		'filename' => '/libs/sifojs/classes/sortable.js',
 	)
 );
 
@@ -162,11 +162,11 @@ $config['user_interface'] = array(
 $config['serialize'] = array(
 	10 => array(
 		'name' => 'jquery_serialize_tree',
-		'filename' => 'libs/Core-js/libs/jquery-serialize/jquery.serializetree.js',
+		'filename' => '/libs/sifojs/libs/jquery-serialize/jquery.serializetree.js',
 	),
 	20 => array(
 		'name' => 'serialize_class',
-		'filename' => 'libs/Core-js/classes/serialize.js',
+		'filename' => '/libs/sifojs/classes/serialize.js',
 	)
 );
 
@@ -174,15 +174,15 @@ $config['serialize'] = array(
 $config['editable'] = array(
 	10 => array(
 		'name' => 'jquery_editable',
-		'filename' => 'libs/Core-js/libs/jquery-jeditable/jquery.jeditable.js',
+		'filename' => '/libs/sifojs/libs/jquery-jeditable/jquery.jeditable.js',
 	),
 	20 => array(
 		'name' => 'jquery_editable_color',
-		'filename' => 'libs/Core-js/libs/jquery-jeditable/jquery.color.js',
+		'filename' => '/libs/sifojs/libs/jquery-jeditable/jquery.color.js',
 	),
 	30 => array(
 		'name' => 'editable-class',
-		'filename' => 'libs/Core-js/classes/editable.js',
+		'filename' => '/libs/sifojs/classes/editable.js',
 	)
 );
 
@@ -190,7 +190,7 @@ $config['editable'] = array(
 $config['prettify'] = array(
 	10 => array(
 		'name' => 'prettifier',
-		'filename' => 'libs/Core-js/libs/code-prettifier/prettify.js',
+		'filename' => '/libs/sifojs/libs/code-prettifier/prettify.js',
 	)
 );
 
@@ -198,6 +198,6 @@ $config['prettify'] = array(
 $config['pulldown'] = array(
 	10 => array(
 		'name' => 'pulldown_class',
-		'filename' => 'libs/Core-js/classes/pulldown.js',
+		'filename' => '/libs/sifojs/classes/pulldown.js',
 	)
 );
