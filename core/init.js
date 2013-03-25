@@ -79,7 +79,11 @@ onDomReady(function(){
 
 			if ( CORE.behaviour.modules[ sId ] !== undefined )
 			{
-				CORE.behaviour.modules[ sId ].init();
+				if ( CORE.behaviour.modules[ sId ].require !== undefined ) {
+					$LAB.script(CORE.behaviour.modules[ sId ].require).wait( CORE.behaviour.modules[ sId ].init );
+				} else {
+					CORE.behaviour.modules[ sId ].init();
+				}
 				sConsoleMessage += sId + ' | ';
 			}
 		}
