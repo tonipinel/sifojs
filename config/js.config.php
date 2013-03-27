@@ -105,7 +105,7 @@ $config['modal'] = array(
 	),
 	20 => array(
 		'name' => 'modals_class',
-		'filename' => '/libs/sifojs/classes/modals.min.js',
+		'filename' => '/libs/sifojs/classes/modals.js',
 	)
 );
 

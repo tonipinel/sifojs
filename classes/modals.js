@@ -52,7 +52,6 @@ CORE.classes.modal.autobind = function (oTarget){
 		$(this).colorbox({rel: sRel});
 
 	});
-
 };
 
 CORE.classes.modal.open = function (oOptions){
