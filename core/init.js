@@ -80,7 +80,7 @@ onDomReady(function(){
 			if ( CORE.behaviour.modules[ sId ] !== undefined )
 			{
 				if ( CORE.behaviour.modules[ sId ].require !== undefined ) {
-					$LAB.script(CORE.behaviour.modules[ sId ].require).wait( CORE.behaviour.modules[ sId ].init );
+					$LAB.script(CORE.behaviour.modules[ sId ].require).wait( CORE.behaviour.modules[ sId ].init() );
 				} else {
 					CORE.behaviour.modules[ sId ].init();
 				}
