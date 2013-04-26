@@ -150,7 +150,7 @@ $config['tabs'] = array(
 $config['user_interface'] = array(
 	10 => array(
 		'name' => 'jquery_ui',
-		'filename' => '/libs/sifojs/libs/jquery-ui/js/jquery-ui-1.8.10.custom.min.js',
+		'filename' => '/libs/sifojs/libs/jquery-sortable/jquery.sortable.min.js',
 	),
 	20 => array(
 		'name' => 'sortable_class',
