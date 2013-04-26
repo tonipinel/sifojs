@@ -18,7 +18,7 @@
 $config['default'] = array(
 	5 => array(
 		'name' => 'DOM_ready',
-		'filename' => '/libs/sifojs/core/ready.js',
+		'filename' => '/libs/sifojs/core/_ready.js',
 	),
 	10 => array(
 		'name' => 'labs',
@@ -26,19 +26,19 @@ $config['default'] = array(
 	),
 	15 => array(
 		'name' => 'device_detection',
-		'filename' => '/libs/sifojs/core/device_detection.js',
+		'filename' => '/libs/sifojs/core/_device_detection.js',
 	),
 	20 => array(
 		'name' => 'namespace',
-		'filename' => '/libs/sifojs/core/namespace.js',
+		'filename' => '/libs/sifojs/core/_namespace.js',
 	),
 	30 => array(
 		'name' => 'utilities_common',
-		'filename' => '/libs/sifojs/core/utilities.js',
+		'filename' => '/libs/sifojs/core/_utilities.js',
 	),
 	100000 => array(
 		'name' => 'init',
-		'filename' => '/libs/sifojs/core/init.js',
+		'filename' => '/libs/sifojs/core/_init.js',
 	)
 );
 
@@ -92,7 +92,7 @@ $config['graphs'] = array(
 	),
 	40 => array(
 		'name' => 'graphs_class',
-		'filename' => '/libs/sifojs/classes/graphs.js',
+		'filename' => '/libs/sifojs/classes/_graphs.js',
 	)
 );
 
@@ -105,7 +105,7 @@ $config['modal'] = array(
 	),
 	20 => array(
 		'name' => 'modals_class',
-		'filename' => '/libs/sifojs/classes/modals.js',
+		'filename' => '/libs/sifojs/classes/_modals.js',
 	)
 );
 
@@ -117,7 +117,7 @@ $config['tags'] = array(
 	),
 	20 => array(
 		'name' => 'tags_class',
-		'filename' => '/libs/sifojs/classes/tags.js',
+		'filename' => '/libs/sifojs/classes/_tags.js',
 	)
 );
 
@@ -129,7 +129,7 @@ $config['autocomplete'] = array(
 	),
 	20 => array(
 		'name' => 'autocomplete_class',
-		'filename' => '/libs/sifojs/classes/autocomplete.js',
+		'filename' => '/libs/sifojs/classes/_autocomplete.js',
 	)
 );
 
@@ -142,7 +142,7 @@ $config['tabs'] = array(
 	),
 	20 => array(
 		'name' => 'tabs_class',
-		'filename' => '/libs/sifojs/classes/tabs.js',
+		'filename' => '/libs/sifojs/classes/_tabs.js',
 	)
 );
 
@@ -154,7 +154,7 @@ $config['user_interface'] = array(
 	),
 	20 => array(
 		'name' => 'sortable_class',
-		'filename' => '/libs/sifojs/classes/sortable.js',
+		'filename' => '/libs/sifojs/classes/_sortable.js',
 	)
 );
 
@@ -166,7 +166,7 @@ $config['serialize'] = array(
 	),
 	20 => array(
 		'name' => 'serialize_class',
-		'filename' => '/libs/sifojs/classes/serialize.js',
+		'filename' => '/libs/sifojs/classes/_serialize.js',
 	)
 );
 
@@ -182,7 +182,7 @@ $config['editable'] = array(
 	),
 	30 => array(
 		'name' => 'editable-class',
-		'filename' => '/libs/sifojs/classes/editable.js',
+		'filename' => '/libs/sifojs/classes/_editable.js',
 	)
 );
 
@@ -191,6 +191,10 @@ $config['prettify'] = array(
 	10 => array(
 		'name' => 'prettifier',
 		'filename' => '/libs/sifojs/libs/code-prettifier/prettify.js',
+	),
+	20 => array(
+		'name' => 'editable-class',
+		'filename' => '/libs/sifojs/classes/_prettify.js',
 	)
 );
 
@@ -198,6 +202,6 @@ $config['prettify'] = array(
 $config['pulldown'] = array(
 	10 => array(
 		'name' => 'pulldown_class',
-		'filename' => '/libs/sifojs/classes/pulldown.js',
+		'filename' => '/libs/sifojs/classes/_pulldown.js',
 	)
 );
