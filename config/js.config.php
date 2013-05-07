@@ -45,7 +45,7 @@ $config['default'] = array(
 $config['desktop'] = array(
 	10 => array(
 		'name' => 'jquery',
-		'filename' => '/libs/sifojs/libs/jquery/jquery-1.8.3.min.js',
+		'filename' => '/libs/sifojs/libs/jquery/jquery-1.9.0.min.js',
 	),
 	20 => array(
      'name' => 'modernizr',
