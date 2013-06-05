@@ -1,6 +1,8 @@
 CORE.classes.modal = {
     oDefault : {
-		sUrl : '#' // Default URL to open
+		sUrl : '#', // Default URL to open,
+	    maxWidth: '100%',
+	    maxHeight: '100%'
     }
 };
 
@@ -49,7 +51,11 @@ CORE.classes.modal.autobind = function (oTarget){
 			}
 		}
 
-		$(this).colorbox({rel: sRel});
+		$(this).colorbox({
+			rel: sRel,
+			maxWidth: '95%',
+		    maxHeight: '95%'
+		});
 
 	});
 };
