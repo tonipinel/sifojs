@@ -65,14 +65,6 @@ $config['polyfills'] = array(
 	10 => array(
 		'name' => 'polyfiller',
 		'filename' => '/libs/sifojs/libs/modernizr/polyfills/polyfiller.js'
-	),
-	20 => array(
-		'name' => 'cssfx',
-		'filename' => '/libs/sifojs/libs/modernizr/polyfills/cssfx.js'
-	),
-	30 => array(
-		'name' => 'selectivizr',
-		'filename' => '/libs/sifojs/libs/modernizr/polyfills/selectivizr-min.js'
 	)
 );
 

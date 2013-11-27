@@ -52,12 +52,41 @@ onDomReady(function(){
 
 					$LAB.script(basePathConfig.polyfills).wait( function() {
 
-						$.webshims.setOptions({
-						    basePath: sHostStatic  + "/js/libs/webshims/shims/",
-							waitReady: false
-						});
+						var aPolyfills = [],
+				        aTags = ['video','audio','source'];
 
-						$.webshims.polyfill();
+					    if ($('form')[0] !== undefined) {
+
+					        if ( !Modernizr.input.placeholder || !Modernizr.input.required )
+					        {
+					            aPolyfills.push('forms');
+						        aPolyfills.push('json-storage');
+					        }
+
+					        if ( !Modernizr.inputtypes.date || !Modernizr.inputtypes.email || !Modernizr.inputtypes.number || !Modernizr.inputtypes.month || !Modernizr.inputtypes.range || !Modernizr.inputtypes.datetime )
+					        {
+					            aPolyfills.push('forms-ext');
+					        }
+					    }
+
+
+					    for (var nCounter = 0; nCounter < aTags.length; nCounter++) {
+					        if ($(aTags[nCounter])[0] !== undefined && !Modernizr[aTags[nCounter]] )
+					        {
+					            aPolyfills.push(aTags[nCounter]);
+					        }
+					    }
+
+					    if (console){
+					        console.log(aPolyfills);
+					    }
+
+					    $.webshims.setOptions({
+						    basePath: sHostStatic  + "/js/libs/webshims/shims/",
+					        waitReady: false
+					    });
+
+					    $.webshims.polyfill(aPolyfills);
 
 					});
 
